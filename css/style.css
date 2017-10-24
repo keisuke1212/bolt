@@ -1,0 +1,341 @@
+.clearfix::before,
+.clearfix::after
+{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.Lato {
+    font-family: 'Lato', serif;
+}
+
+.Raleway {
+    font-family: 'Raleway', serif;
+}
+
+.wapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.innerWrap {
+    width: 1200px;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.headerWrap {
+    margin: 0 auto;
+    padding: 15px 0;
+    position: relative;
+}
+
+.fa-bolt {
+    color: gray;
+    margin-left: 20px;
+}
+
+.headerMenu {
+    background-color: #74cfae;
+    color: #fff;
+    padding: 14px 12px;
+    float: right;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.pageTop {
+    background-color: #f2f2f2;
+}
+
+.pageTopWrap {
+    margin: 0 auto;
+    padding: 250px 0;
+}
+
+.pageTopTxtMain {
+    font-size: 90px;
+    font-weight: 700;
+    color: #74cfae;
+    text-align: center;
+}
+
+.pageTopTxtSub {
+    font-size: 30px;
+    color: #c0c0c0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pageAbout {
+    background-color: #74cfae;
+}
+
+.pageAboutWrap {
+    margin:0 auto;
+    padding-top: 50px;
+}
+
+.pageAboutImg {
+    background-image: url(../img/iphone.png);
+    width: 208px;
+    height: 295px;
+    margin: 0 100px;
+    display: inline-block;
+}
+
+.pageAboutTxt {
+    width: 766px;
+    float: right;
+}
+
+.pageAboutTxtMain {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pageAboutTxtSub {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 35px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.imgGroup {
+    margin: 0 auto;
+}
+
+.imgGroupTxt {
+    font-size: 24px;
+    text-align: center;
+    margin: 60px 0 40px 0;
+}
+
+.imgGroupContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.imgGroupItem {
+    opacity: 0.7;
+}
+
+.imgGroupItem:hover {
+    opacity: 1;
+}
+
+.imgMargin {
+    margin-bottom: 80px;
+}
+
+.emailMe {
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 90px 0 70px 0;
+}
+
+.emailMeGroup {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.emailMeTxtDetails {
+    text-align: center;
+}
+
+.emailMeBtnDetails {
+    display: block;
+    padding: 14px 20px;
+    background-color: #74cfae;
+    color: #fff;
+    margin-left: 90px;
+    white-space: nowrap;
+}
+
+.emailMeBtnDetails:hover {
+    color: #333;
+}
+
+.ourSkills {
+    background-color : #4e4e4e;
+    padding: 70px 0 100px 0;
+}
+
+.ourSkillsTxt {
+    font-size: 24px;
+    color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.ourSkillsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.ourSkillsItemTxt {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: #f2f2f2;
+}
+
+.sns {
+    background-color: #f2f2f2;
+    padding: 200px 0;
+}
+
+.snsImgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.snsImgItem {
+    color: #74cfae;
+    width: 185px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.snsImgItem:hover {
+    background-color: #fff;
+}
+
+.pageFooter {
+    background-color: #74cfae;
+}
+
+.pageFooterWrap {
+    padding: 20px 0 25px 0;
+    margin: 0 auto;
+}
+
+.pageFooterTxt {
+    display: inline-block;
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1199px) {
+    .innerWrap {
+        width: 100%;
+    }
+
+    .pageAboutImg {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .pageAboutTxt {
+        width: 100%;
+        float: none;
+        padding: 0 100px 25px;
+        box-sizing: border-box;
+    }
+
+    .imgGroupContainer {
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .emailMe {
+        padding-top: 80px;
+    }
+
+    .emailMeGroup {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .emailMeBtnDetails {
+        margin: 40px auto 0;
+    }
+
+    .ourSkillsContainer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .ourSkillsItem {
+        margin-bottom: 88px;
+    }
+}
+
+
+@media screen and (max-width: 766px) {
+
+    .headerMenu {
+        display: none;
+    }
+
+    .headerMenu.is-active {
+        display: block;
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        width: 100%;
+    }
+
+    .headerMenu__humberger {
+        display: inline-block;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        float: right;
+        margin-right: 20px;
+    }
+
+    .headerMenu__bar {
+        display: block;
+        border: 1px solid #ddd;
+        width: 20px;
+    }
+
+    .bar__margin {
+        margin: 4px 0;
+    }
+
+    .pageAboutTxt {
+        padding: 0 10px 25px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .emailMeGroup{
+        padding: 0 10px;
+    }
+
+    .sns {
+        padding: 50px 15px;
+    }
+
+    .snsImgContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .snsImgItem {
+        width: 100%;
+    }
+
+}
