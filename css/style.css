@@ -21,6 +21,7 @@
 
 .innerWrap {
     width: 1200px;
+    margin: 0 auto;
 }
 
 .header {
@@ -109,12 +110,15 @@
 
 .imgGroup {
     margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    background-color: #f2f2f2;
 }
 
 .imgGroupTxt {
     font-size: 24px;
     text-align: center;
-    margin: 60px 0 40px 0;
+    margin: 60px 0 40px;
 }
 
 .imgGroupContainer {
@@ -126,7 +130,8 @@
 }
 
 .imgGroupItem {
-    opacity: 0.7;
+    opacity: .7;
+    line-height: 0;
 }
 
 .imgGroupItem:hover {
@@ -137,17 +142,12 @@
     margin-bottom: 80px;
 }
 
-.emailMe {
-    margin: 0 auto;
-    background-color: #f2f2f2;
-    padding: 90px 0 70px 0;
-}
-
 .emailMeGroup {
     display: flex;
     width: 900px;
     margin: 0 auto;
     justify-content: space-between;
+    padding: 90px 0 70px;
 }
 
 .emailMeTxtDetails {
@@ -169,7 +169,7 @@
 
 .ourSkills {
     background-color : #4e4e4e;
-    padding: 70px 0 100px 0;
+    padding: 70px 0 100px;
 }
 
 .ourSkillsTxt {
@@ -254,16 +254,12 @@
         align-items: center;
     }
 
-    .emailMe {
-        padding-top: 80px;
-    }
-
     .emailMeGroup {
         box-sizing: border-box;
         width: 100%;
-        padding: 0 40px;
         flex-direction: column;
         align-items: center;
+        padding-top: 80px;
     }
 
     .emailMeBtnDetails {
@@ -321,10 +317,6 @@
         box-sizing: border-box;
     }
 
-    .emailMeGroup{
-        padding: 0 10px;
-    }
-
     .sns {
         padding: 50px 15px;
     }
@@ -338,4 +330,11 @@
         width: 100%;
     }
 
+    .pageTopWrap {
+        padding: 160px 0 130px;
+    }
+
+    .pageTopTxtMain {
+        font-size: 80px;
+    }
 }
